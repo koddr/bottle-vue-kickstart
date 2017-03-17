@@ -59,7 +59,7 @@ Hit Ctrl-C to quit.
 
 ### If you did everything right...
 
-![Result without database](https://cloud.githubusercontent.com/assets/11155743/24043773/4befab4c-0b29-11e7-8118-183d56c8f231.png)
+![Result without database](https://cloud.githubusercontent.com/assets/11155743/24055182/24a5a04c-0b50-11e7-89a6-8f5d85c98e08.png)
 
 (Optional) Install database with example objects:
 
