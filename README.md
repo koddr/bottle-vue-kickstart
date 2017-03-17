@@ -27,14 +27,13 @@ $ git clone git@github.com:koddr/bottle-vue-kickstart.git
 Second, install `npm` depencies and make build:
 
 ```bash
-$ npm install
-$ npm run build
+$ cd bottle-vue-kickstart
+$ npm install && npm run build
 ```
 
 Third, prepare your virtual environment:
 
 ```bash
-$ cd bottle-vue-kickstart
 $ python3 -m venv venv
 $ source venv/bin/activate
 ```
@@ -42,7 +41,7 @@ $ source venv/bin/activate
 Next, install Bottle and all extensions:
 
 ```bash
-(venv) $ pip install bottle bottle-sqlalchemy
+(venv) $ pip install bottle bottle-sqlalchemy jinja2
 (venv) $ deactivate
 ```
 
@@ -72,6 +71,35 @@ Now, your yellow section on http://localhost:8080/ will look like this:
 ![Result with database](https://cloud.githubusercontent.com/assets/11155743/24043867/cf79c344-0b29-11e7-8066-8ebd83e68acb.png)
 
 And we done!
+
+## What is app structure?
+
+```html
+├── assets
+│   ├── js
+│   │   ├── _bootstrap.js
+│   │   └── index.js
+│   └── sass
+│       ├── _variables.scss
+│       └── index.scss
+├── static
+│   ├── css
+│   │   └── app.min.css
+│   ├── images
+│   │   └── bottle-vue-kickstart-logo-horizontal.svg
+│   └── js
+│       └── app.min.js
+├── templates
+│   ├── index.html
+│   └── layout
+│       └── base.html
+├── articles.db
+├── install.py
+├── package.json
+├── requirements.txt
+├── run.py
+└── webpack.config.js
+```
 
 ## Developers
 
