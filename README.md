@@ -101,6 +101,8 @@ And we done!
 └── webpack.config.js
 ```
 
+## What's next? Build something awesome and make web beautiful again!
+
 ## Developers
 
 Development and maintenance of `Bottle Vue kickstart kit` project engaged by Vikky Shostak ([Koddr](https://koddr.me)). If you want to write a «thank you» or ask something, [use this e-mail](mailto:koddr.me@gmail.com).
