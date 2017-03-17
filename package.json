@@ -1,0 +1,34 @@
+{
+  "name": "bottle-vue-kickstart",
+  "version": "0.1.0",
+  "description": "Very basic kickstart Bootle kit with Vue.js. Included Axios, Bulma.io, Babel and Webpack 2.",
+  "engines": {
+    "node": ">=4.2"
+  },
+  "author": "Vikky Shostak",
+  "license": "MIT",
+  "repository": {},
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config=webpack.config.js --display-error-details -p",
+    "watch": "./node_modules/.bin/webpack --config=webpack.config.js --watch"
+  },
+  "dependencies": {
+    "axios": "latest",
+    "bulma": "latest",
+    "vue": "latest",
+    "vue-resource": "latest"
+  },
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "latest",
+    "babel-preset-latest": "latest",
+    "css-loader": "latest",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "node-sass": "latest",
+    "sass-loader": "latest",
+    "style-loader": "latest",
+    "vue-loader": "latest",
+    "vue-template-compiler": "latest",
+    "webpack": "latest"
+  }
+}

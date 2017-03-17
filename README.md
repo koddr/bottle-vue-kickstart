@@ -1,0 +1,1 @@
+# Very basic kickstart Bootle kit with Vue.js. Included Axios, Bulma.io, Babel and Webpack 2.

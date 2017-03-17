@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+
+# Node.js
+node_modules/
+
+# Virtualenv
+env/
+venv/
+ENV/
+
+# JetBrains
+.idea/
+
+# Project
+static/css/
+static/js/
+*.db
