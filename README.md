@@ -72,7 +72,7 @@ Now, your yellow section on http://localhost:8080/ will look like this:
 
 And we done!
 
-## What is app structure?
+## Final Bottle app structure
 
 ```html
 ├── assets
