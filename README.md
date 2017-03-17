@@ -56,7 +56,7 @@ Hit Ctrl-C to quit.
 ...
 ```
 
-### If you did everything right, then you'll see:
+### If you did everything right...
 
 ![Result without database](https://cloud.githubusercontent.com/assets/11155743/24043773/4befab4c-0b29-11e7-8118-183d56c8f231.png)
 
@@ -72,7 +72,7 @@ Now, your yellow section on http://localhost:8080/ will look like this:
 
 And we done!
 
-## Final Bottle app structure
+## Final app structure
 
 ```html
 ├── assets
@@ -101,7 +101,7 @@ And we done!
 └── webpack.config.js
 ```
 
-## What's next? Build something awesome and make web beautiful again!
+### What's next? Build something awesome and make web beautiful again!
 
 ## Developers
 
