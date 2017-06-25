@@ -49,7 +49,7 @@ Next, install Bottle and all extensions:
 Finally, run development server:
 
 ```bash
-$ python run.py
+$ python3 run.py
 
 Bottle v0.12.13 server starting up (using AutoServer())...
 Listening on http://localhost:8080/
