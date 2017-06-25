@@ -64,7 +64,7 @@ Hit Ctrl-C to quit.
 (Optional) Install database with example objects:
 
 ```bash
-$ python install.py
+$ python3 install.py
 ```
 
 Now, your yellow section on http://localhost:8080/ will look like this:
