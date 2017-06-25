@@ -25,7 +25,7 @@ First, clone this git repository:
 $ git clone git@github.com:koddr/bottle-vue-kickstart.git
 ```
 
-Second, install `npm` depencies and make build:
+Second, install `npm` dependencies and make build:
 
 ```bash
 $ cd bottle-vue-kickstart
