@@ -23,7 +23,7 @@
     "babel-loader": "latest",
     "babel-preset-latest": "latest",
     "css-loader": "latest",
-    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "extract-text-webpack-plugin": "^2.1.2",
     "node-sass": "latest",
     "sass-loader": "latest",
     "style-loader": "latest",
