@@ -77,11 +77,10 @@ And we done!
 ```html
 ├── assets
 │   ├── js
-│   │   ├── _bootstrap.js
 │   │   └── index.js
 │   └── sass
-│       ├── _variables.scss
-│       └── index.scss
+│       ├── _variables.sass
+│       └── index.sass
 ├── static
 │   ├── css
 │   │   └── app.min.css
