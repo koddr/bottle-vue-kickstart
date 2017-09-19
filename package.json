@@ -1,34 +1,35 @@
 {
   "name": "bottle-vue-kickstart",
-  "version": "0.1.0",
-  "description": "Very basic kickstart Bottle kit with Vue.js. Included Axios, Bulma.io, Babel and Webpack 2.",
+  "version": "0.2.0",
+  "description": "Very basic kickstart Bottle kit with Vue.js. Included Axios, Bulma and Webpack 3.",
   "engines": {
-    "node": ">=4.2"
+    "node": ">=6.0"
   },
   "author": "Vikky Shostak",
   "license": "MIT",
   "repository": {},
   "scripts": {
+    "dev-build": "./node_modules/.bin/webpack --config=webpack.config.js --display-error-details",
+    "dev-watch": "./node_modules/.bin/webpack --config=webpack.config.js --watch",
     "build": "./node_modules/.bin/webpack --config=webpack.config.js --display-error-details -p",
-    "watch": "./node_modules/.bin/webpack --config=webpack.config.js --watch"
+    "watch": "./node_modules/.bin/webpack --config=webpack.config.js --watch -p"
   },
   "dependencies": {
-    "axios": "latest",
-    "bulma": "latest",
-    "vue": "latest",
-    "vue-resource": "latest"
+    "axios": "^0.16.2",
+    "bulma": "^0.5.3",
+    "vue": "^2.4.4"
   },
   "devDependencies": {
-    "babel-core": "latest",
-    "babel-loader": "latest",
-    "babel-preset-latest": "latest",
-    "css-loader": "latest",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^2.1.2",
-    "node-sass": "latest",
-    "sass-loader": "latest",
-    "style-loader": "latest",
-    "vue-loader": "latest",
-    "vue-template-compiler": "latest",
-    "webpack": "latest"
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0"
   }
 }

@@ -3,28 +3,41 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     entry: {
-        'js/app.min.js': path.resolve(__dirname, './assets/js/index.js'),
-        'css/app.min.css': path.resolve(__dirname, './assets/sass/index.scss')
+        'js/script.min.js': './static/assets/js/index.js',
+        'css/style.min.css': './static/assets/sass/index.sass'
     },
     output: {
-        path: path.resolve(__dirname, './static'), filename: '[name]', chunkFilename: "[id]"
+        path: path.resolve(__dirname, 'static'), filename: '[name]', chunkFilename: "[id]"
     },
     module: {
         loaders: [
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loader: "babel-loader"
+                loader: "babel-loader",
+                query: {
+                    presets: ['es2015'],
+                    plugins: ['transform-class-properties']
+                }
             },
             {
-                test: /\.scss$/,
+                test: /\.sass$/,
                 loader: ExtractTextPlugin.extract({fallback: "style-loader", use: "css-loader!sass-loader"})
+            },
+            {
+                test: /\.vue$/,
+                loader: "vue-loader",
+                options: {
+                    loaders: {
+                        'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
+                    }
+                }
             }
         ]
     },
     resolve: {
         alias: {
-            'vue$': 'vue/dist/vue.common.js'
+            'vue$': 'vue/dist/vue.esm.js'
         }
     },
     plugins: [

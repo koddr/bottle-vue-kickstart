@@ -1,8 +1,9 @@
-// Add all libraries
-require('./_bootstrap');
+// Include all libraries
+import Vue from 'vue';
+import axios from 'axios';
 
 // Vue app
-new Vue({
+const kickstart_app = new Vue({
     el: '#kickstart-app',
     delimiters: ['[[', ']]'],
     data: {
@@ -10,16 +11,16 @@ new Vue({
     },
     methods: {
         getAllArticles: function () {
-            this.$http.get('/api/articles/')
-                .then(function (response) {
+            axios.get('/api/articles/')
+                .then((response) => {
                     this.result = response.data;
                 })
-                .catch(function (error) {
+                .catch((error) => {
                     console.log(error);
                 });
         }
     },
-    created: function () {
+    mounted() {
         if (document.querySelectorAll('.articles').length > 0) {
             this.getAllArticles();
         }
