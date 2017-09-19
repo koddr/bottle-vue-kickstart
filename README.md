@@ -41,7 +41,7 @@ $ source venv/bin/activate
 Next, install Bottle and all extensions:
 
 ```bash
-(venv) $ pip install bottle bottle-sqlalchemy jinja2
+(venv) $ pip install -r requirements.txt
 (venv) $ deactivate
 ```
 
