@@ -104,7 +104,7 @@ And we done!
 
 ## Developers
 
-Development and maintenance of `Bottle Vue kickstart kit` project engaged by Vikky Shostak ([Koddr](https://koddr.me)). If you want to write a «thank you» or ask something, [use this e-mail](mailto:koddr.me@gmail.com).
+Development and maintenance of `Bottle Vue kickstart kit` project engaged by Vic Shóstak (aka [Koddr](https://koddr.me)). If you want to write a «thank you» or ask something, [use this e-mail](mailto:koddr.me@gmail.com).
 
 ## Your help
 
