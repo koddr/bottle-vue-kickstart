@@ -1,7 +1,7 @@
 ![bottle-vue-kickstart-main](https://cloud.githubusercontent.com/assets/11155743/24041455/9fbd99ec-0b1e-11e7-9ba0-a429a28591b0.jpg)
 
 # Very basic kickstart Bottle kit with Vue.js
-[![GitHub release](https://img.shields.io/badge/version-0.2.0-brightgreen.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart) [![licence](https://img.shields.io/badge/Python-2.7_or_3.4+-red.svg?style=flat-square)](https://www.python.org/downloads/) [![licence](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart/blob/master/LICENSE.md)
+[![GitHub release](https://img.shields.io/badge/version-0.3.0-brightgreen.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart) [![licence](https://img.shields.io/badge/Python-2.7_or_3.4+-red.svg?style=flat-square)](https://www.python.org/downloads/) [![licence](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart/blob/master/LICENSE.md)
 
 Simplify development of reactive web applications on [Bottle](http://bottlepy.org/) – lightweight WSGI micro web-framework for Python! A simple process of installing and deploying. Everything has already been done for you. Just enjoy writing your code!
 
