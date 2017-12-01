@@ -5,9 +5,7 @@ __pycache__/
 node_modules/
 
 # Virtualenv
-env/
 venv/
-ENV/
 
 # JetBrains
 .idea/

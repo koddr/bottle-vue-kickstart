@@ -1,5 +1,5 @@
-import sqlite3
-import os.path
+# Import Python packages
+import os.path, sqlite3
 
 # Check if database file `articles.db` already exist
 if os.path.isfile('articles.db'):

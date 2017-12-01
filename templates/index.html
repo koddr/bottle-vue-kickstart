@@ -11,23 +11,24 @@
         <img src="/static/images/bottle-vue-kickstart-logo-horizontal.svg" alt="Bottle Vue Kickstart logo"/>
         <h1 class="title">Very basic kickstart Bottle kit with Vue.js</h1>
         <h2 class="subtitle">Included Axios, Bulma.io, Babel and Webpack 3</h2>
-        <a class="github-button" href="https://github.com/koddr"
-           data-style="mega" aria-label="View on GitHub">View on GitHub</a>
+        <a class="github-button" href="https://github.com/koddr/bottle-vue-kickstart/archive/master.zip"
+           data-icon="octicon-cloud-download" data-size="large"
+           aria-label="Download koddr/bottle-vue-kickstart on GitHub">Download</a>
       </div>
     </div>
   </section>
   <section class="hero is-warning is-medium is-bold has-text-centered">
     <div class="hero-body">
       <div class="container">
-        <div v-if="result.data">
+        <div v-if="result">
           <h3 class="title">Hints from SQLite Database (Vue.js + Axios)</h3>
           <div class="articles">
             <div class="columns is-desktop">
               <div class="column" v-for="article in result.data">
                 <div class="card">
                   <div class="card-content">
-                    <p class="title">[[ article.description ]]</p>
-                    <p class="subtitle">[[ article.title ]]</p>
+                    <h3>[[ article.description ]]</h3>
+                    <strong>[[ article.title ]]</strong>
                   </div>
                 </div>
               </div>
@@ -46,18 +47,12 @@
       <div class="columns">
         <div class="column">
           <a class="github-button" href="https://github.com/koddr/bottle-vue-kickstart" data-icon="octicon-star"
-             data-style="mega" data-count-href="/koddr/bottle-vue-kickstart/stargazers"
-             data-count-api="/repos/koddr/bottle-vue-kickstart#stargazers_count"
-             data-count-aria-label="# stargazers on GitHub"
-             aria-label="Star koddr/bottle-vue-kickstart on GitHub">Star</a>&nbsp;
+             data-size="large" data-show-count="true" aria-label="Star koddr/bottle-vue-kickstart on GitHub">Star</a>
           <a class="github-button" href="https://github.com/koddr/bottle-vue-kickstart/subscription"
-             data-icon="octicon-eye" data-style="mega" data-count-href="/koddr/bottle-vue-kickstart/watchers"
-             data-count-api="/repos/koddr/bottle-vue-kickstart#subscribers_count"
-             data-count-aria-label="# watchers on GitHub"
-             aria-label="Watch koddr/bottle-vue-kickstart on GitHub">Watch</a>&nbsp;
+             data-icon="octicon-eye" data-size="large" data-show-count="true"
+             aria-label="Watch koddr/bottle-vue-kickstart on GitHub">Watch</a>
           <a class="github-button" href="https://github.com/koddr/bottle-vue-kickstart/fork"
-             data-icon="octicon-repo-forked" data-style="mega" data-count-href="/koddr/bottle-vue-kickstart/network"
-             data-count-api="/repos/koddr/bottle-vue-kickstart#forks_count" data-count-aria-label="# forks on GitHub"
+             data-icon="octicon-repo-forked" data-size="large" data-show-count="true"
              aria-label="Fork koddr/bottle-vue-kickstart on GitHub">Fork</a>
         </div>
         <div class="column">
