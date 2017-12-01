@@ -74,20 +74,19 @@ And we done!
 
 ## Final app structure
 
-```html
-├── assets
-│   ├── js
-│   │   └── index.js
-│   └── sass
-│       ├── _variables.sass
-│       └── index.sass
+``` html
 ├── static
+│   ├── assets
+│   │   ├── js
+│   │   │   └── script.js
+│   │   └── scss
+│   │       └── style.scss
 │   ├── css
-│   │   └── app.min.css
+│   │   └── style.min.css
 │   ├── images
 │   │   └── bottle-vue-kickstart-logo-horizontal.svg
 │   └── js
-│       └── app.min.js
+│       └── script.min.js
 ├── templates
 │   ├── index.html
 │   └── layout
