@@ -1,12 +1,11 @@
-# Import os, json
-import os
-import json
+# Import Python packages
+import os, json
 # Import Bottle
 import bottle
-from bottle import run, get, install, abort, response, static_file
+from bottle import run, response, static_file
 from bottle import jinja2_template as template
 # Import Bottle Extensions
-from bottle.ext import sqlalchemy
+from bottle_sqlalchemy import SQLAlchemyPlugin
 # Import SQLAlchemy
 from sqlalchemy import create_engine, Column, Integer, String, Text
 from sqlalchemy.ext.declarative import declarative_base
@@ -27,7 +26,7 @@ db_engine = create_engine('sqlite:///' + os.path.join(BASE_DIR, 'articles.db'))
 app = bottle.default_app()
 
 # Install Bottle plugins
-app.install(sqlalchemy.Plugin(db_engine, keyword='sqlite_db'))
+app.install(SQLAlchemyPlugin(db_engine, keyword='sqlite_db'))
 
 
 # Articles Database class

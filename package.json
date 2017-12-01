@@ -1,6 +1,6 @@
 {
   "name": "bottle-vue-kickstart",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Very basic kickstart Bottle kit with Vue.js. Included Axios, Bulma and Webpack 3.",
   "engines": {
     "node": ">=6.0"
@@ -9,15 +9,13 @@
   "license": "MIT",
   "repository": {},
   "scripts": {
-    "dev-build": "./node_modules/.bin/webpack --config=webpack.config.js --display-error-details",
-    "dev-watch": "./node_modules/.bin/webpack --config=webpack.config.js --watch",
     "build": "./node_modules/.bin/webpack --config=webpack.config.js --display-error-details -p",
     "watch": "./node_modules/.bin/webpack --config=webpack.config.js --watch -p"
   },
   "dependencies": {
-    "axios": "^0.17.0",
-    "bulma": "^0.6.0",
-    "vue": "^2.5.2"
+    "axios": "^0.17.1",
+    "bulma": "^0.6.1",
+    "vue": "^2.5.9"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -25,11 +23,11 @@
     "babel-preset-latest": "^6.24.1",
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^2.1.2",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
-    "vue-loader": "^13.3.0",
-    "vue-template-compiler": "^2.5.2",
-    "webpack": "^3.8.1"
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.9",
+    "webpack": "^3.9.1"
   }
 }
