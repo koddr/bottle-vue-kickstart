@@ -41,12 +41,18 @@ $ pip install pipenv
 
 > More info here: https://packaging.python.org/tutorials/managing-dependencies/#managing-dependencies
 
-Next, install Bottle with all extensions and go to your environment shell:
+Next, install Bottle with all extensions:
 
 ```bash
 $ pipenv install
-$ pipenv shell
 ```
+
+> Now, virtual env is automaticaly create. If you want to know system link:
+> ```bash
+> $ pipenv --venv
+> 
+> /Users/username/.virtualenvs/bottle-vue-kickstart--0mmusSep
+> ```
 
 Finally, run development server:
 
