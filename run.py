@@ -1,7 +1,5 @@
-# Import Python packages
-import os, json
-# Import Bottle
-import bottle
+# Import Python packages, Bottle
+import os, json, bottle
 from bottle import run, response, static_file
 from bottle import jinja2_template as template
 # Import Bottle Extensions

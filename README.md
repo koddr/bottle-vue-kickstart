@@ -1,7 +1,7 @@
 ![bottle-vue-kickstart-main](https://cloud.githubusercontent.com/assets/11155743/24041455/9fbd99ec-0b1e-11e7-9ba0-a429a28591b0.jpg)
 
 # Very basic kickstart Bottle kit with Vue.js
-[![GitHub release](https://img.shields.io/badge/version-0.4.1-brightgreen.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart) [![licence](https://img.shields.io/badge/Python-2.7_or_3.4+-red.svg?style=flat-square)](https://www.python.org/downloads/) [![licence](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart/blob/master/LICENSE.md)
+[![GitHub release](https://img.shields.io/badge/version-0.4.2-brightgreen.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart) [![licence](https://img.shields.io/badge/Python-2.7_or_3.4+-red.svg?style=flat-square)](https://www.python.org/downloads/) [![licence](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart/blob/master/LICENSE.md)
 
 Simplify development of reactive web applications on [Bottle](http://bottlepy.org/) – lightweight WSGI micro web-framework for Python! A simple process of installing and deploying. Everything has already been done for you. Just enjoy writing your code!
 
@@ -33,16 +33,19 @@ $ npm install && npm run build
 
 Third, prepare your virtual environment:
 
+Since `0.4.2` we use [Pipenv](https://github.com/pypa/pipenv) project for manage virtual environments.
+
 ```bash
-$ python3 -m venv venv
-$ source venv/bin/activate
+$ pip install pipenv
 ```
 
-Next, install Bottle and all extensions:
+> More info here: https://packaging.python.org/tutorials/managing-dependencies/#managing-dependencies
+
+Next, install Bottle with all extensions and go to your environment shell:
 
 ```bash
-(venv) $ pip install -r requirements.txt
-(venv) $ deactivate
+$ pipenv install
+$ pipenv shell
 ```
 
 Finally, run development server:
@@ -63,7 +66,7 @@ Hit Ctrl-C to quit.
 (Optional) Install database with example objects:
 
 ```bash
-$ python3 install.py
+$ python3 _devtools/install_init_database.py
 ```
 
 Now, your yellow section on http://localhost:8080/ will look like this:
@@ -75,6 +78,8 @@ And we done!
 ## Final app structure
 
 ``` html
+├── _devtools
+│   └── install_init_database.py
 ├── static
 │   ├── assets
 │   │   ├── js
@@ -92,9 +97,8 @@ And we done!
 │   └── layout
 │       └── base.html
 ├── articles.db
-├── install.py
 ├── package.json
-├── requirements.txt
+├── Pipfile
 ├── run.py
 └── webpack.config.js
 ```

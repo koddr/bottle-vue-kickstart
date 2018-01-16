@@ -1,15 +1,18 @@
 # Import Python packages
-import os.path, sqlite3
+import os, sqlite3
+
+# Define DB file
+db_file = 'articles.db'
 
 # Check if database file `articles.db` already exist
-if os.path.isfile('articles.db'):
+if os.path.isfile(db_file):
     # If exist...
     # Print error message
     print('[ERROR] Database file already exists. Delete them first and try again.')
 else:
     # Else...
     # Create database `articles`
-    db = sqlite3.connect('articles.db')
+    db = sqlite3.connect(db_file)
     db.execute(
         "CREATE TABLE articles ("
         "id INTEGER PRIMARY KEY, "
