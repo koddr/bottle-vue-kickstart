@@ -1,34 +1,45 @@
 ![bottle-vue-kickstart-main](https://cloud.githubusercontent.com/assets/11155743/24041455/9fbd99ec-0b1e-11e7-9ba0-a429a28591b0.jpg)
 
-# Very basic kickstart Bottle kit with Vue.js
+# Very basic Bottle kickstart kit with Vue.js and Webpack
 [![GitHub release](https://img.shields.io/badge/version-0.4.2-brightgreen.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart) [![licence](https://img.shields.io/badge/Python-2.7_or_3.4+-red.svg?style=flat-square)](https://www.python.org/downloads/) [![licence](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart/blob/master/LICENSE.md)
 
-Simplify development of reactive web applications on [Bottle](http://bottlepy.org/) – lightweight WSGI micro web-framework for Python! A simple process of installing and deploying. Everything has already been done for you. Just enjoy writing your code!
+## What's included to kit?
 
-## What is this?
+* Bottle `0.12.13` (stable)
 
-Kickstart kit included latest version of `npm` packs:
+`NPM` packages:
 
-* Axios (for make AJAX calls)
-* Babel (for turn ES6 code into readable vanilla)
-* Vue.js (for reactive 'em all)
-* Webpack (for pack 'em all)
+* Axios `0.17+` (AJAX calls)
+* PostCSS/Autoprefixer `7.2+` (automate CSS prefix)
+* Babel `7.0+` (turn ES6 code to vanilla)
+* Vue.js `2.5+` (the basis of reactive web applications)
+* Webpack `3.10+` with config (SCSS, ES6, Vue.js)
+* Web font loader `1.6+` (async load font from Google Fonts)
 
-For visual design I use [Bulma](https://github.com/jgthms/bulma). This is a modern CSS framework based on Flexbox. Small and smart. If you haven't seen it before I promise – you'll like it!
+Example:
+
+* Out the box application for test kit with latest [Bulma CSS framework](https://github.com/jgthms/bulma).
+
+## What's Bottle?
+
+[Bottle](http://bottlepy.org/) – is lightweight WSGI micro web-framework for Python. A simple process of installing and deploying. Everything has already been done for you. Just enjoy writing your code!
+
+> Simplify development of reactive web applications — use this kickstart kit now!
 
 ## How to install?
 
-First, clone this git repository:
+First, clone this GitHub repository:
 
 ```bash
 $ git clone git@github.com:koddr/bottle-vue-kickstart.git
 ```
 
-Second, install `npm` dependencies and make build:
+Second, install `NPM` dependencies and make build:
 
 ```bash
 $ cd bottle-vue-kickstart
-$ npm install && npm run build
+$ npm install
+$ npm run build # or `npm run watch` for hot-reload
 ```
 
 Third, prepare your virtual environment:
@@ -50,7 +61,7 @@ $ pipenv install
 ```
 
 > Yes, virtual environment is automaticaly create. If you want to know system link, just use `pipenv --venv`.
-> Result is something like this: `/Users/username/.virtualenvs/bottle-vue-kickstart--XXXXXX`
+> Result is something like this: `/Users/username/.virtualenvs/bottle-vue-kickstart--XXXXXX`. Use it in PyCharm or else.
 
 Finally, run development server:
 
@@ -100,9 +111,16 @@ And we done!
 │   ├── index.html
 │   └── layout
 │       └── base.html
+├── .babelrc
+├── .editorconfig
+├── .gitignore
 ├── articles.db
 ├── package.json
+├── package-lock.json
 ├── Pipfile
+├── Pipfile.lock
+├── postcss-config.js
+├── README.md
 ├── run.py
 └── webpack.config.js
 ```
