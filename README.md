@@ -125,16 +125,22 @@ And we done!
 └── webpack.config.js
 ```
 
-### What's next? Build something awesome and make web beautiful again!
+> What's next? Build something awesome and make web beautiful again!
 
-## Developers
+### Author & maintainers
 
-Development and maintenance of `Bottle Vue kickstart kit` project engaged by Vic Shóstak (aka [Koddr](https://koddr.me)). If you want to write a «thank you» or ask something, [use this e-mail](mailto:koddr.me@gmail.com).
+Development and maintenance engaged by [Vic Shóstak](https://github.com/koddr) (aka Koddr).
+If you want to say «thank you» and/or ask me about `Bottle Vue kickstart kit` — [create new issue](https://github.com/koddr/bottle-vue-kickstart/issues/new).
 
-## Your help
+___
+> ### Your assistance will help make project even better!
+> 
+> * [Donate with PayPal](https://www.paypal.me/koddr/9.99usd)
+> * [Donate with Yandex.Money](https://money.yandex.ru/to/41001601525977/599)
+> 
+> #### Thanks for supporting!
+___
 
-If you want help, we will be glad reviews about `Bottle Vue kickstart kit` on personal blogs (including Twitter), online media and/or specialized IT-portals. Thank you!
-
-## License
+### License
 
 [The MIT License (MIT)](https://github.com/koddr/bottle-vue-kickstart/blob/master/LICENSE.md)
