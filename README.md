@@ -136,7 +136,7 @@ ___
 > ### Your assistance will help make project even better!
 > 
 > * [Donate with PayPal](https://www.paypal.me/koddr/9.99usd)
-> * [Donate with Yandex.Money](https://money.yandex.ru/to/41001601525977/599)
+> * [Donate with Credit/Bank card, Yandex.Money](https://money.yandex.ru/to/41001601525977/599)
 > 
 > #### Thanks for supporting!
 ___
