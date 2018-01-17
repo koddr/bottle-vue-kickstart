@@ -1,7 +1,7 @@
 {
   "name": "bottle-vue-kickstart",
   "version": "0.4.2",
-  "description": "Very basic kickstart Bottle kit with Vue.js. Included Axios, Bulma and Webpack 3.",
+  "description": "Very basic Bottle kickstart kit with Vue.js and Webpack. Included Axios, Babel, Webpack config and demo app with Bulma.",
   "engines": {
     "node": ">=6.0"
   },
