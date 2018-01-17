@@ -7,7 +7,7 @@
 
 * Bottle `0.12.13` (stable)
 
-`NPM` packages:
+NPM packages:
 
 * Axios `0.17+` (AJAX calls)
 * PostCSS/Autoprefixer `7.2+` (automate CSS prefix)
@@ -18,7 +18,7 @@
 
 Example:
 
-* Out the box application for test kit with latest [Bulma CSS framework](https://github.com/jgthms/bulma).
+* Out the box application for test kit with latest [Bulma CSS framework](https://github.com/jgthms/bulma)
 
 ## What's Bottle?
 
@@ -34,7 +34,7 @@ First, clone this GitHub repository:
 $ git clone git@github.com:koddr/bottle-vue-kickstart.git
 ```
 
-Second, install `NPM` dependencies and make build:
+Second, install NPM dependencies and make build:
 
 ```bash
 $ cd bottle-vue-kickstart
