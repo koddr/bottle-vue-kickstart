@@ -31,28 +31,22 @@ $ cd bottle-vue-kickstart
 $ npm install && npm run build
 ```
 
-Third, prepare your virtual environment:
+Third, prepare your virtual environment and install Bottle with all extensions:
 
-Since `0.4.2` we use [Pipenv](https://github.com/pypa/pipenv) project for manage virtual environments.
-
-```bash
-$ pip install pipenv
-```
-
+> Since `0.4.2` we use [Pipenv](https://github.com/pypa/pipenv) project for manage virtual environments.
+>
+> ```bash
+> $ pip install pipenv
+> ```
+>
 > More info here: https://packaging.python.org/tutorials/managing-dependencies/#managing-dependencies
-
-Next, install Bottle with all extensions:
 
 ```bash
 $ pipenv install
 ```
 
-> Now, virtual env is automaticaly create. If you want to know system link:
-> ```bash
-> $ pipenv --venv
-> 
-> /Users/username/.virtualenvs/bottle-vue-kickstart--0mmusSep
-> ```
+> Now, virtual environment is automaticaly create. If you want to know system link, just use `pipenv --venv`.
+> Result is something like this: `/Users/username/.virtualenvs/bottle-vue-kickstart--XXXXXX`
 
 Finally, run development server:
 
