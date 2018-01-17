@@ -20,13 +20,13 @@ Example:
 
 * Out the box application for test kit with latest [Bulma CSS framework](https://github.com/jgthms/bulma)
 
-## What's Bottle?
+### What's Bottle?
 
 [Bottle](http://bottlepy.org/) – is lightweight WSGI micro web-framework for Python. A simple process of installing and deploying. Everything has already been done for you. Just enjoy writing your code!
 
 > Simplify development of reactive web applications — use this kickstart kit now!
 
-## How to install?
+## How to install and use kit?
 
 First, clone this GitHub repository:
 
