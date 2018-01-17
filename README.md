@@ -41,7 +41,7 @@ Install via `pip` to your system:
 $ pip install pipenv
 ```
 
-> More info about Pipenv here: https://packaging.python.org/tutorials/managing-dependencies/#managing-dependencies
+> More info about Pipenv here: [Managing dependencies, Python.org](https://packaging.python.org/tutorials/managing-dependencies/#managing-dependencies).
 
 And now, install Bottle with all extensions: 
 
