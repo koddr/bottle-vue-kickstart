@@ -5,13 +5,20 @@
 
 ## What's included to kit?
 
-Kickstart kit included latest version of `npm` packs:
+* Bottle `0.12.13` (stable)
 
-* Axios (AJAX calls)
-* Babel (turn ES6 code to vanilla)
+`NPM` packages:
+
+* Axios `0.17+` (AJAX calls)
+* PostCSS/Autoprefixer `7.2+` (automate CSS prefix)
+* Babel `7.0+` (turn ES6 code to vanilla)
 * Vue.js `2.5+` (the basis of reactive web applications)
 * Webpack `3.10+` with config (SCSS, ES6, Vue.js)
-* Example app for test kit with [Bulma CSS framework](https://github.com/jgthms/bulma)
+* Web font loader `1.6+` (async load font from Google Fonts)
+
+Example:
+
+* Out the box application for test kit with latest [Bulma CSS framework](https://github.com/jgthms/bulma).
 
 ## What's Bottle?
 
@@ -21,17 +28,18 @@ Kickstart kit included latest version of `npm` packs:
 
 ## How to install?
 
-First, clone this git repository:
+First, clone this GitHub repository:
 
 ```bash
 $ git clone git@github.com:koddr/bottle-vue-kickstart.git
 ```
 
-Second, install `npm` dependencies and make build:
+Second, install `NPM` dependencies and make build:
 
 ```bash
 $ cd bottle-vue-kickstart
-$ npm install && npm run build
+$ npm install
+$ npm run build # or `npm run watch` for hot-reload
 ```
 
 Third, prepare your virtual environment:
@@ -53,7 +61,7 @@ $ pipenv install
 ```
 
 > Yes, virtual environment is automaticaly create. If you want to know system link, just use `pipenv --venv`.
-> Result is something like this: `/Users/username/.virtualenvs/bottle-vue-kickstart--XXXXXX`
+> Result is something like this: `/Users/username/.virtualenvs/bottle-vue-kickstart--XXXXXX`. Use it in PyCharm or else.
 
 Finally, run development server:
 
@@ -103,9 +111,16 @@ And we done!
 │   ├── index.html
 │   └── layout
 │       └── base.html
+├── .babelrc
+├── .editorconfig
+├── .gitignore
 ├── articles.db
 ├── package.json
+├── package-lock.json
 ├── Pipfile
+├── Pipfile.lock
+├── postcss-config.js
+├── README.md
 ├── run.py
 └── webpack.config.js
 ```
