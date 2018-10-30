@@ -3,19 +3,6 @@
         "hash": {
             "sha256": "657c6ce4d8d2c982fd3b10c818c69878e7019118577ece1b8814e0113fbd953d"
         },
-        "host-environment-markers": {
-            "implementation_name": "cpython",
-            "implementation_version": "3.6.4",
-            "os_name": "posix",
-            "platform_machine": "x86_64",
-            "platform_python_implementation": "CPython",
-            "platform_release": "17.3.0",
-            "platform_system": "Darwin",
-            "platform_version": "Darwin Kernel Version 17.3.0: Thu Nov  9 18:09:22 PST 2017; root:xnu-4570.31.3~1/RELEASE_X86_64",
-            "python_full_version": "3.6.4",
-            "python_version": "3.6",
-            "sys_platform": "darwin"
-        },
         "pipfile-spec": 6,
         "requires": {},
         "sources": [
@@ -31,12 +18,14 @@
             "hashes": [
                 "sha256:39b751aee0b167be8dffb63ca81b735bbf1dd0905b3bc42761efedee8f123355"
             ],
+            "index": "pypi",
             "version": "==0.12.13"
         },
         "bottle-sqlalchemy": {
             "hashes": [
                 "sha256:ba6127f3aff2b78649781adbbee65518233dc481e9f9e32e3b050d1ad9551c17"
             ],
+            "index": "pypi",
             "version": "==0.4.3"
         },
         "jinja2": {
@@ -44,19 +33,22 @@
                 "sha256:74c935a1b8bb9a3947c50a54766a969d4846290e1e788ea44c1392163723c3bd",
                 "sha256:f84be1bb0040caca4cea721fcbbbbd61f9be9464ca236387158b0feea01914a4"
             ],
+            "index": "pypi",
             "version": "==2.10"
         },
         "markupsafe": {
             "hashes": [
                 "sha256:a6be69091dac236ea9c6bc7d012beab42010fa914c459791d627dad4910eb665"
             ],
+            "index": "pypi",
             "version": "==1.0"
         },
         "sqlalchemy": {
             "hashes": [
-                "sha256:9ede7070d6fd18f28058be88296ed67893e2637465516d6a596cd9afea97b154"
+                "sha256:c5951d9ef1d5404ed04bae5a16b60a0779087378928f997a294d1229c6ca4d3e"
             ],
-            "version": "==1.2.1"
+            "index": "pypi",
+            "version": "==1.2.12"
         }
     },
     "develop": {}
