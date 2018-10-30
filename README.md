@@ -11,7 +11,7 @@ NPM packages:
 
 * Axios `0.18+` (AJAX calls)
 * PostCSS/Autoprefixer `7.2+` (automate CSS prefixes)
-* Babel `7.0+` (turn ES6 code to vanilla)
+* Babel `7.1+` (turn ES6 code to vanilla)
 * Vue.js `2.5+` (the basis of reactive web applications)
 * Webpack `3.10+` with config (SCSS, ES6, Vue.js)
 * Web font loader `1.6+` (async load font from Google Fonts)
