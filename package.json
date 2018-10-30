@@ -1,6 +1,6 @@
 {
   "name": "bottle-vue-kickstart",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Very basic Bottle kickstart kit with Vue.js and Webpack. Included Axios, Babel, Webpack config and demo app with Bulma.",
   "engines": {
     "node": ">=7.0"
@@ -14,26 +14,26 @@
     "watch": "webpack --config webpack.config.js --watch --optimize-minimize --hide-modules --progress"
   },
   "dependencies": {
-    "axios": "^0.17.1",
-    "bulma": "^0.6.2",
-    "vue": "^2.5.13",
+    "axios": "^0.18.0",
+    "bulma": "^0.7.2",
+    "vue": "^2.5.17",
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0-beta.37",
-    "@babel/preset-env": "^7.0.0-beta.37",
-    "autoprefixer": "^7.2.4",
-    "babel-loader": "^8.0.0-beta.0",
-    "css-loader": "^0.28.8",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "autoprefixer": "^7.2.6",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^3.0.2",
-    "node-sass": "^4.7.2",
-    "postcss-loader": "^2.0.10",
-    "sass-loader": "^6.0.6",
+    "node-sass": "^4.9.4",
+    "postcss-loader": "^2.1.6",
+    "sass-loader": "^6.0.7",
     "style-loader": "^0.18.2",
-    "vue-loader": "^13.7.0",
-    "vue-style-loader": "^3.0.3",
-    "vue-template-compiler": "^2.5.13",
-    "webpack": "^3.10.0"
+    "vue-loader": "^13.7.3",
+    "vue-style-loader": "^3.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^3.12.0"
   },
   "author": "Vic Shóstak <koddr.me@gmail.com> (https://webartisans.org)",
   "license": "MIT",
