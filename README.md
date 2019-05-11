@@ -1,7 +1,7 @@
 ![bottle-vue-kickstart-main](https://cloud.githubusercontent.com/assets/11155743/24041455/9fbd99ec-0b1e-11e7-9ba0-a429a28591b0.jpg)
 
 # Very basic Bottle kickstart kit with Vue.js and Webpack
-[![GitHub release](https://img.shields.io/badge/version-0.5.2-brightgreen.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart) [![licence](https://img.shields.io/badge/Python-2.7_or_3.4+-red.svg?style=flat-square)](https://www.python.org/downloads/) [![licence](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart/blob/master/LICENSE.md)
+[![GitHub release](https://img.shields.io/badge/version-0.5.3-brightgreen.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart) [![licence](https://img.shields.io/badge/Python-2.7_or_3.4+-red.svg?style=flat-square)](https://www.python.org/downloads/) [![licence](https://img.shields.io/badge/licence-MIT-blue.svg?style=flat-square)](https://github.com/koddr/bottle-vue-kickstart/blob/master/LICENSE.md)
 
 ## What's included to kit?
 
@@ -12,7 +12,7 @@ NPM packages:
 * Axios `0.18+` (AJAX calls)
 * PostCSS/Autoprefixer `7.2+` (automate CSS prefixes)
 * Babel `7+` (turn ES6 code to vanilla)
-* Vue.js `2.5+` (the basis of reactive web applications)
+* Vue.js `2.6+` (the basis of reactive web applications)
 * Webpack `3+` with config (SCSS, ES6, Vue.js)
 * Web font loader `1.6+` (async load font from Google Fonts)
 
