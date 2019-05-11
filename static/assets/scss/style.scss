@@ -4,18 +4,20 @@
 @import "~bulma/sass/utilities/derived-variables.sass";
 
 // Define Bulma default variables
-$family-primary: 'Open Sans', Helvetica, Arial, sans-serif;
+$family-primary: "Open Sans", Helvetica, Arial, sans-serif;
 
 // Import Bulma
 @import "~bulma";
 
 // Typo
-html, body {
+html,
+body {
   font-size: 17px;
-  letter-spacing: .1px;
+  letter-spacing: 0.1px;
   font-weight: 400;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 300;
 }

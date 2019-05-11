@@ -1,5 +1,6 @@
 # Import Python packages
-import os, sqlite3
+import os
+import sqlite3
 
 # Define DB file
 db_file = 'articles.db'

@@ -1,3 +1,6 @@
+# VS Code
+.vscode/
+
 # Python
 __pycache__/
 
@@ -6,9 +9,6 @@ node_modules/
 
 # Virtualenv
 venv/
-
-# JetBrains
-.idea/
 
 # Project
 static/css/

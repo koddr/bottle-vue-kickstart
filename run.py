@@ -1,11 +1,15 @@
-# Import Python packages, Bottle
-import os, json, bottle
-from bottle import run, response, static_file
+# Import Python packages
+import json
+import os
+
+# Import Bottle
+import bottle
 from bottle import jinja2_template as template
+from bottle import response, run, static_file
 # Import Bottle Extensions
 from bottle_sqlalchemy import SQLAlchemyPlugin
 # Import SQLAlchemy
-from sqlalchemy import create_engine, Column, Integer, String, Text
+from sqlalchemy import Column, Integer, String, Text, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 
 # Define dirs
