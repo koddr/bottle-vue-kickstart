@@ -127,11 +127,17 @@ And we done!
 
 > What's next? Build something awesome and make web beautiful again!
 
-## Author & maintainers
+## Developers
 
-Development and maintenance engaged by [Vic Shóstak](https://github.com/koddr) (aka Koddr).
+- Idea and active development by [Vic Shóstak](https://github.com/koddr) (aka Koddr).
 
-If you want to say «thank you» or/and support active development `bottle-vue-kickstart` — become a Patron!
+## Project assistance
+
+If you want to say «thank you» or/and support active development `Bottle Vue.js Kikstart`:
+
+1. Add a GitHub Star to project.
+2. Twit about project [on your Twitter](https://twitter.com/intent/tweet?text=I%20found%20cool%20starter%20pack%20with%20%23Python%20%40bottlepy%20and%20%23JavaScript%20%40vuejs%20%F0%9F%91%8D%20Also%2C%20include%20configured%3A%20%40webpack%2C%20%23axios%2C%20%40Autoprefixer%20and%20%40babeljs%20%F0%9F%8E%89&url=https%3A%2F%2Fgithub.com%2Fkoddr%2Fbottle-vue-kickstart).
+3. Help project with some money, become a Patron:
 
 <a href="https://www.patreon.com/bePatron?u=20124951">
   <img width="200px" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" alt="Become a Patron!"/>
