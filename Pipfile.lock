@@ -16,11 +16,11 @@
     "default": {
         "bottle": {
             "hashes": [
-                "sha256:9c310da61e7df2b6ac257d8a90811899ccb3a9743e77e947101072a2e3186726",
-                "sha256:ca43beafbdccabbe31b758a4f34d1e44985a9b9539516775208b2b0f903eafa0"
+                "sha256:0819b74b145a7def225c0e83b16a4d5711fde751cd92bae467a69efce720f69e",
+                "sha256:43157254e88f32c6be16f8d9eb1f1d1472396a4e174ebd2bf62544854ecf37e7"
             ],
             "index": "pypi",
-            "version": "==0.12.16"
+            "version": "==0.12.18"
         },
         "bottle-sqlalchemy": {
             "hashes": [
