@@ -14,7 +14,7 @@
     "watch": "webpack --config webpack.config.js --watch --optimize-minimize --hide-modules --progress"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "bulma": "^0.7.4",
     "vue": "^2.6.11",
     "webfontloader": "^1.6.28"
