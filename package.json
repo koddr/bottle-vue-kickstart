@@ -16,7 +16,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "bulma": "^0.9.0",
-    "vue": "^2.6.11",
+    "vue": "^2.6.12",
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
@@ -32,7 +32,7 @@
     "vue-loader": "^15.9.3",
     "style-loader": "^0.23.1",
     "vue-style-loader": "^4.1.2",
-    "vue-template-compiler": "^2.6.11",
+    "vue-template-compiler": "^2.6.12",
     "webpack": "^3.12.0"
   },
   "author": "Vic Shóstak <truewebartisans@gmail.com> (https://1wa.co)",
