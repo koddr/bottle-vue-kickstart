@@ -20,7 +20,7 @@
     "webfontloader": "^1.6.28"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-env": "^7.12.10",
     "@babel/core": "^7.12.9",
     "autoprefixer": "^10.1.0",
     "babel-loader": "^8.2.1",
